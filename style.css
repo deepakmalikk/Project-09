@@ -59,7 +59,7 @@ nav{
 
 .companies{
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .company-items{
@@ -69,7 +69,7 @@ nav{
     font-weight: bold;
     font-family: 'Poppins', cursive;
     font-size: 20px;
-    padding-right: 80px;
+    padding-right: 60px;
 }
 
 .api-heading{
