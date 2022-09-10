@@ -360,3 +360,119 @@ button {
     margin-top: 50px;
     margin-left: 20px;
 }
+
+
+/* making website responsive */
+
+@media screen and (max-width: 780px) {
+    nav {
+        display: flex;
+        justify-self: center;
+    }
+
+    .header-text {
+
+        font-size: 15px;
+    }
+
+    .header-image {
+        height: 380px;
+    }
+
+    .companies {
+        visibility: hidden;
+    }
+
+    .api-heading {
+        margin-left: 115px;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 0px;
+    }
+
+    .card-active {
+        width: 80%;
+        margin-bottom: 0px;
+    }
+
+    .blog-heading {
+        margin-left: 110px;
+    }
+
+    .symbol,
+    .text,
+    .blog-heading,
+    .blog-cards,
+    .nav-item-active,
+    .faq-image {
+        visibility: collapse;
+        position: absolute;
+    }
+
+    .faq-section {
+        margin-top: -100px;
+        height: 300px;
+    }
+
+    .faq-content {
+        margin-left: 110px;
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .download-section {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .download-content {
+        margin-left: -50px;
+    }
+
+    .download-email {
+        margin-left: 0px;
+
+    }
+
+    input {
+        width: 200px;
+
+
+    }
+
+    .footer-section {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-right {
+        float: center;
+        margin-left: 110px;
+    }
+
+    .logos-list {
+        margin-left: 110px;
+    }
+}
