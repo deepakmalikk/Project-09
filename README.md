@@ -14,10 +14,11 @@
 
 - What I learned from this Project?
   - 
-  - Learned about background-image,background-size and background-position properties.
-  - Learned how to add different color in background using `linear-gradient()` function.
-  - Learned how to acces type selector in CSS.
-  - How to acess nth-child in CSS.
+  - Learned how to make card's in website.
+  - Learned about Layout making through Flexbox. 
+  - Learned about Box Shadow.
+  - Learned how to use Hover Effect.
+  - how to make end to end website.
   - How to use different Google Fonts in webpage.
   - Learned how to make responsive web-design.
   
@@ -28,7 +29,7 @@
 
 ## Time taken to finish this project
 
-- 5 hour to complete it.
+- 5.5 hour to complete it.
 
 
 ---
