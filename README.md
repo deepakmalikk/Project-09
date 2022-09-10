@@ -29,7 +29,7 @@
 
 ## Time taken to finish this project
 
-- 5.5 hour to complete it.
+- 7.5 hour to complete it.
 
 
 ---
