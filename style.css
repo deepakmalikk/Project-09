@@ -1,38 +1,38 @@
 /* POPPINS FONT FAMILY */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #F5F5F5;
-    
+
 }
 
-header{
+header {
     height: 500px;
     background-color: #3400FF;
 }
 
-nav{
+nav {
     float: right;
     margin-right: 40px;
     margin-top: 15px;
     cursor: pointer;
 }
 
-.nav-item{
+.nav-item {
     margin-right: 20px;
     color: white;
-    
+
 }
 
-.nav-item-active{
+.nav-item-active {
     background-color: #fff;
     padding: 5px;
     border-radius: 5px;
@@ -41,11 +41,11 @@ nav{
     margin-right: 20px;
 }
 
-.logo{
+.logo {
     margin: 40px;
 }
 
-.header-text{
+.header-text {
     color: white;
     margin-left: 60px;
     margin-top: 50px;
@@ -53,16 +53,16 @@ nav{
     font-size: medium;
 }
 
-.header-image{
+.header-image {
     float: right;
 }
 
-.companies{
+.companies {
     margin-top: 20px;
     margin-left: 40px;
 }
 
-.company-items{
+.company-items {
     text-decoration: none;
     margin-left: 30px;
     color: black;
@@ -72,22 +72,22 @@ nav{
     padding-right: 60px;
 }
 
-.api-heading{
+.api-heading {
     font-weight: 2200;
     margin-left: 90px;
     margin-top: 100px;
     font-style: bold;
-    
+
 }
 
-.cards{
+.cards {
     margin-left: 90px;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.card{
+.card {
     width: 20%;
     height: 250px;
     background-color: transparent;
@@ -96,39 +96,42 @@ nav{
     margin-bottom: 30px;
 }
 
-.card-active{
+.card-active {
     width: 20%;
     height: 250px;
     border-radius: 10px;
     margin-right: 30px;
     margin-bottom: 30px;
-   
+
 }
-.card-active:hover{
+
+.card-active:hover {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.card-logo{
+
+.card-logo {
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.card-head{
+.card-head {
     color: black;
     margin-left: 30px;
 }
 
-.card-head-active{
+.card-head-active {
     color: #5A31FC;
     margin-left: 30px;
 }
 
-.card-body{
+.card-body {
     color: black;
     margin-left: 30px;
     font-size: small;
 }
-.card-symbol{
+
+.card-symbol {
     width: 10%;
     height: 250px;
     background-color: transparent;
@@ -136,16 +139,18 @@ nav{
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.symbol{
-   
+
+.symbol {
+
     margin-top: 50px;
     margin-left: 20px;
 }
 
-.blog-heading{
+.blog-heading {
     margin-left: 90px;
 }
-.text{
+
+.text {
     float: right;
     margin-top: -30px;
     margin-right: 50px;
@@ -153,12 +158,12 @@ nav{
     font-size: 13px;
 }
 
-.blog-cards{
+.blog-cards {
     margin-left: 90px;
     margin-top: 50px;
 }
 
-.blog-card{
+.blog-card {
     height: 288px;
     width: 50%;
     background-color: white;
@@ -167,25 +172,25 @@ nav{
     margin-right: 50px;
 }
 
-.blog-content{
+.blog-content {
     float: right;
     margin-right: 100px;
 }
 
-.blog-image{
+.blog-image {
     float: left;
 }
 
-.blog-bottom{
+.blog-bottom {
     float: right;
     margin-right: 100px;
 }
 
-.blog-card-bottom-image{
+.blog-card-bottom-image {
     margin-top: 20px;
 }
 
-.blog-author{
+.blog-author {
     font-size: x-small;
     float: right;
     margin-top: 16px;
@@ -193,45 +198,47 @@ nav{
     font-weight: bold;
 }
 
-.blog-card{
+.blog-card {
     float: left;
 }
 
-.blog-cards{
+.blog-cards {
     display: flex;
     flex-direction: row;
 }
 
-.faq-section{
+.faq-section {
     height: 325px;
     background-color: #E9EDFF;
     margin-top: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.faq-image{
+.faq-image {
     width: 40%;
     height: 300px;
     float: right;
 }
-.faq-content{
+
+.faq-content {
     float: left;
     margin-left: 90px;
 }
 
-.faq-content h2{
+.faq-content h2 {
     font-weight: bolder;
     font-size: 200%;
-     
+
 }
-.faq-content h4:last-of-type{
+
+.faq-content h4:last-of-type {
     margin-top: 20px;
     margin-bottom: 10px;
     text-decoration: none;
     font-weight: 1200px;
 }
 
-.faq-content button{
+.faq-content button {
     background: #5A31FC;
     border-radius: 3px;
     color: white;
@@ -241,32 +248,33 @@ nav{
     padding-right: 20px;
 }
 
-.download-section{
+.download-section {
     height: 225px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.download-content{
+.download-content {
     float: left;
     margin-left: 90px;
     margin-top: 30px;
 }
 
-.download-email{
+.download-email {
     float: right;
     margin-right: 250px;
-  
+
 }
 
-.download-content h1{
+.download-content h1 {
     font-size: 300%;
 }
-.download-content span{
+
+.download-content span {
     font-size: 70%;
 }
 
-.download-email{
+.download-email {
     display: flex;
     flex-direction: row;
     padding-left: 200px;
@@ -274,58 +282,59 @@ nav{
 }
 
 form {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     height: 40px;
-    border:2px solid grey;
+    border: 2px solid grey;
     border-radius: 22px;
-    padding:2px;
+    padding: 2px;
     background-color: #E9EDFF;
-  }
-  
-  input {
-    flex-grow:2;
-    border:none;
+}
+
+input {
+    flex-grow: 2;
+    border: none;
     width: 400px;
     background-color: transparent;
     text-align: center;
-  }
-  
-  input:focus {
+}
+
+input:focus {
     outline: none;
-  }
-  
-  button {
+}
+
+button {
     width: 150px;
-    color:white;
+    color: white;
     border-radius: 20px;
     border-width: 1px;
     background-color: #5A31FC;
-  }
+}
 
-  .footer-section{
+.footer-section {
     height: 300px;
     background-color: #3C0AFE;
 }
 
-.footer-left{
+.footer-left {
     float: left;
 }
 
-.footer-logo{
+.footer-logo {
     margin-top: 50px;
     padding-left: 90px;
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 60px;
+    margin-top: 50px;
     list-style-type: none;
     color: white;
 }
 
-.logos-list{
+.logos-list {
     display: flex;
     flex-direction: row;
     margin-left: 10px;
@@ -337,17 +346,17 @@ form {
 
 
 
-.list-items{
+.list-items {
     margin-left: 25px;
 }
 
-.footer-right{
+.footer-right {
     float: right;
     margin-top: 10px;
     margin-right: 100px;
 }
 
-.footer-logos{
+.footer-logos {
     margin-top: 50px;
     margin-left: 20px;
 }
